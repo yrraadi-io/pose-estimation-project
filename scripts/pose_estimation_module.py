@@ -104,7 +104,7 @@ class PoseDetector:
 def main():
     detector = PoseDetector()
     # detector.video_convert()
-    cap = cv2.VideoCapture("./pose-videos/golf.mp4")
+    cap = cv2.VideoCapture(0)
     # rotate_code = detector.check_rotation("./pose-videos/golf.mp4")
     p_time = 0
 
